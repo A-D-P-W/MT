@@ -1,0 +1,7 @@
+# @project Example
+# The one consumer of the modules in this extract: the modules it uses (registry order), then its own file.
+modules/SecurityNames/SecurityNames.gs
+modules/HtmlText/HtmlText.gs
+modules/PdfSafety/PdfSafety.gs
+modules/SenderTrust/SenderTrust.gs
+example/ExampleTriage.gs

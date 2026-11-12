@@ -1,0 +1,23 @@
+# One-command check for the public extract: `npm ci` then `./run.sh` (one VERDICT line).
+# No secrets are used. The token is read-only. Actions are pinned by full commit SHA, and both pins were checked
+# with `git ls-remote` on 2026-11-11 (lightweight tags; action.yml `using: node24`).
+name: run
+on:
+  push:                  # every branch, so a commit can pass before main is moved to it (ruleset: require check 'verdict')
+  pull_request:          # fork PRs: read-only token, no secrets; first-time contributors need approval (repo default)
+permissions:
+  contents: read
+jobs:
+  verdict:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd   # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: 22
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts
+      - run: ./run.sh

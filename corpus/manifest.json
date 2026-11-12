@@ -1,0 +1,199 @@
+{
+ "01_benign_invoice": {
+  "file": "01_benign_invoice.pdf",
+  "bytes": 1589,
+  "sha256": "f99d12924ed88f12283a07b6e27343132dffa9b27c6d876e15cb27a21907208d",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "#"
+  ]
+ },
+ "02_openaction_js": {
+  "file": "02_openaction_js.pdf",
+  "bytes": 1615,
+  "sha256": "c8418712ea0e47868189468007b311302153f0b6871f0b3d6aca3c8e914b0d1e",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/JavaScript",
+   "/JS",
+   "/OpenAction",
+   "#"
+  ]
+ },
+ "03_objstm_js_no_openaction": {
+  "file": "03_objstm_js_no_openaction.pdf",
+  "bytes": 1154,
+  "sha256": "e9a34d271d9c1eacd97f60de6cb0930f2eb93d2641ddb6a740ddc82f103d8913",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/ObjStm"
+  ]
+ },
+ "03b_objstm_openaction_js": {
+  "file": "03b_objstm_openaction_js.pdf",
+  "bytes": 1143,
+  "sha256": "793601a2b43f3e868dcbc18b0de181ef46584ac606920b18cfb68b926bd07491",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/ObjStm"
+  ]
+ },
+ "04_launch": {
+  "file": "04_launch.pdf",
+  "bytes": 1602,
+  "sha256": "333c590c1bc697dd25c2d6e9590df1e1ed94b3d915bce8b355b6becd267614cf",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/OpenAction",
+   "/Launch",
+   "#"
+  ]
+ },
+ "05_embedded_file": {
+  "file": "05_embedded_file.pdf",
+  "bytes": 1960,
+  "sha256": "0a78d3a88d396b11a2eff33871ed192528d208beddf2f1f9565e1b389126e28a",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/EmbeddedFile",
+   "#"
+  ]
+ },
+ "06_uri_phishing": {
+  "file": "06_uri_phishing.pdf",
+  "bytes": 1681,
+  "sha256": "37a7a15d1daef60914d61055207aa8249323bdc1d79ec6459612f1d0380bd697",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/URI",
+   "#"
+  ]
+ },
+ "07_hex_escaped_names": {
+  "file": "07_hex_escaped_names.pdf",
+  "bytes": 776,
+  "sha256": "0d6eb834872052906f21df78c69bc09f1d4986fd7f9a7879cb18f4ee64d2e4e3",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "#"
+  ]
+ },
+ "08_encrypted": {
+  "file": "08_encrypted.pdf",
+  "bytes": 2504,
+  "sha256": "0c4a9431770092f00274cb207d76b225e02fd9caa9290cb7f3238ae01dad4420",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/Encrypt"
+  ]
+ },
+ "08b_encrypted_objstm_js": {
+  "file": "08b_encrypted_objstm_js.pdf",
+  "bytes": 1891,
+  "sha256": "ac59044b8fd0a7a906601e62d21d8e89a71ee557736a0d8bc87133f5f6bc1a5f",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "/OpenAction",
+   "/ObjStm",
+   "/Encrypt"
+  ]
+ },
+ "09_polyglot_pdf_zip": {
+  "file": "09_polyglot_pdf_zip.pdf",
+  "bytes": 1749,
+  "sha256": "d47732e448e46802bf7c317365388224d4ef957e257e6e142a448c40d6652a71",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "zip ok",
+  "raw_visible": [
+   "#"
+  ]
+ },
+ "09b_polyglot_zip_first": {
+  "file": "09b_polyglot_zip_first.pdf",
+  "bytes": 1808,
+  "sha256": "d97e2c83d5ec04243909ebf1c742e4df0e6717a8e90f5243497d470ee4ba4039",
+  "header_offset": 35,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "zip ok",
+  "raw_visible": [
+   "#"
+  ]
+ },
+ "10_truncated": {
+  "file": "10_truncated.pdf",
+  "bytes": 873,
+  "sha256": "846b891a0cd51163e0484d43345b2911bda29a7421e5bf0664bff6444612184d",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": []
+ },
+ "10b_corrupt_garbage": {
+  "file": "10b_corrupt_garbage.pdf",
+  "bytes": 2057,
+  "sha256": "dc2df1af20ce9f1665af1d4492996703b2738b05e440a5de1fca2e60937e0a0e",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "error: PdfError",
+  "zip": "not zip",
+  "raw_visible": []
+ },
+ "11_prompt_injection_text": {
+  "file": "11_prompt_injection_text.pdf",
+  "bytes": 1875,
+  "sha256": "4d9ce1a1af63cb0f6ea0cf073b92d6236219f51b46a5520a5dd5f14a7f1c2e2c",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "#"
+  ]
+ },
+ "11b_name_injection": {
+  "file": "11b_name_injection.pdf",
+  "bytes": 1589,
+  "sha256": "f99d12924ed88f12283a07b6e27343132dffa9b27c6d876e15cb27a21907208d",
+  "header_offset": 0,
+  "qpdf": "not installed",
+  "pikepdf": "opens (1 page)",
+  "zip": "not zip",
+  "raw_visible": [
+   "#"
+  ]
+ }
+}

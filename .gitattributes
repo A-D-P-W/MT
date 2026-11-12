@@ -1,0 +1,3 @@
+# LF everywhere (Windows checkouts too); PDFs are test fixtures, byte-exact (scanner/SHA256SUMS).
+* text=auto eol=lf
+*.pdf binary

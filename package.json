@@ -1,0 +1,13 @@
+{
+  "name": "mailtodrive-safety-core",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Adversarial PDF corpus and module contracts extracted from a private Gmail-to-Drive filing script.",
+  "scripts": {
+    "test": "./run.sh",
+    "ablation": "node tools/ablation.js"
+  },
+  "devDependencies": {
+    "acorn": "8.14.0"
+  }
+}

@@ -1,0 +1,5 @@
+# Registry order of the modules in this extract. Contract tests load modules in this order.
+SecurityNames
+HtmlText
+PdfSafety
+SenderTrust
